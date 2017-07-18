@@ -10,7 +10,7 @@ import com.google.gson.Gson;
 import com.huarui.life.config.BuildConfig;
 import com.huarui.life.config.Constant;
 import com.huarui.life.config.SharePreFileConfig;
-import com.huarui.life.entity.VersionEntity;
+import com.huarui.life.bean.entity.VersionEntity;
 import com.huarui.life.ui.activity.LaunchActivity;
 import com.huarui.life.utils.PreferenceConfig;
 import com.huarui.life.utils.VersionUtils;

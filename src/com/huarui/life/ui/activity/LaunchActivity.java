@@ -28,7 +28,7 @@ import com.huarui.life.application.BaseApp;
 import com.huarui.life.config.BuildConfig;
 import com.huarui.life.config.Constant;
 import com.huarui.life.config.SharePreFileConfig;
-import com.huarui.life.entity.FirstRunEntity;
+import com.huarui.life.bean.entity.FirstRunEntity;
 import com.huarui.life.manager.InfoManager;
 import com.huarui.life.service.ConnectService;
 import com.huarui.life.service.LocationServer;

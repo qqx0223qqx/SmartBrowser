@@ -1,4 +1,4 @@
-package com.huarui.life.entity;
+package com.huarui.life.bean.entity;
 
 /**
  * Created by HR_Life on 2016/11/10 14:42 15:19.

@@ -6,7 +6,7 @@ import android.os.Handler;
 
 import com.google.gson.Gson;
 import com.huarui.life.config.Constant;
-import com.huarui.life.entity.TimerUploadAttrEntity;
+import com.huarui.life.bean.entity.TimerUploadAttrEntity;
 import com.huarui.life.service.ConnectService;
 import com.zhy.http.okhttp.callback.Callback;
 

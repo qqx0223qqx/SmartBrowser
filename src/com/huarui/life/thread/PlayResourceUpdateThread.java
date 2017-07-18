@@ -6,7 +6,7 @@ import android.text.TextUtils;
 
 import com.google.gson.Gson;
 import com.huarui.life.config.Constant;
-import com.huarui.life.entity.ResourseCheckEntity;
+import com.huarui.life.bean.entity.ResourseCheckEntity;
 import com.huarui.life.manager.InfoManager;
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.BitmapCallback;
