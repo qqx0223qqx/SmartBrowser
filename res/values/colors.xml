@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="font_hint_color">#494848</color>
+    <color name="colorPrimary">#1c44a1</color>
+    <color name="colorAccent">#d4319e</color>
+    <color name="color_bg">#b3b0b0</color>
+    <color name="btn_pressed">#fff</color>
+    <color name="btn_disable">#414040</color>
+    <color name="login_bg">#a3d2f4</color>
+    <color name="login_tv_prompt_color">#13161d</color>
+    <color name="splash_tv_default_en_text_color">#daecff</color>
+    <color name="custom_toast_bg">#c1393838</color>
+    <color name="webview_ll_progress_bg">#835c5c5c</color>
+    <color name="turn_tv_prompt_bg">#69929094</color>
+    <color name="turn_tv_prompt_text_color">#141e2b</color>
+    <color name="custom_toast_view_bg">#d5ecebeb</color>
+    <color name="custom_toast_tv_title_text_color">#f3ffffff</color>
+    <color name="custom_toast_tv_msg_text_color">#f3ffffff</color>
+    <color name="splash_tv_default_cn_text_color">#dceeff</color>
+    <color name="splash_tv_deviceid_text_color">#d4e9ff</color>
+    <color name="splash_tv_location_text_color">#1b60a6</color>
+    <color name="white">#ffffff</color>
+    <color name="webview_bg">#656565</color>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+   <com.youth.banner.Banner
+       android:id="@+id/image_banner"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/image_tv_error_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#68c6c3c3"
+        android:padding="@dimen/x4"
+        android:textColor="#070818"
+        android:visibility="invisible"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>

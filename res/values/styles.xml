@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--app 通用主题 no ActionBar-->
+    <style name="app_them" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--默认所有window设置全屏模式-->
+        <item name="android:windowFullscreen">true</item>
+        <!--动画样式-->
+        <item name="android:windowAnimationStyle">@style/Animation.Activity.Style</item>
+        <!--window窗口设为无标题模式，默认windowFullscreen=true，此方法不生效-->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Launch_Theme" parent="app_them">
+        <!-- 设置所有页面不为透明模式,开发半透明模式时使用该属性-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--  默认所有window窗口背景设为全透明无颜色
+        <item name="android:windowBackground">@android:color/transparent</item>-->
+        <item name="android:state_window_focused">false</item>
+        <!--启动优化，不会产生白屏间隔快速显示背景-->
+        <item name="android:windowBackground">@mipmap/bg_default</item>
+    </style>
+
+    <style name="Animation.Activity.Style" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/enter_anim</item>
+        <item name="android:activityOpenExitAnimation">@anim/exit_anim</item>
+        <item name="android:activityCloseEnterAnimation">@anim/enter_anim</item>
+        <item name="android:activityCloseExitAnimation">@anim/exit_anim</item>
+    </style>
+
+    <!--引导页面btn样式；-->
+    <style name="guide_btn_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/x70</item>
+        <item name="android:background">@drawable/guide_btn_bg</item>
+        <item name="android:textSize">@dimen/x30</item>
+        <item name="android:textColor">@drawable/guide_btn_text_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App label shown within list of installed apps, battery & network usage screens. -->
+    <string name="app_name">SmartBrowser</string>
+    <!-- App label shown on the launcher. -->
+    <string name="launcher_name">@string/app_name</string>
+    <!-- App label shown on the task switcher. -->
+    <string name="activity_name">@string/launcher_name</string>
+
+    <string name="NO_SHOW">该设备没有节目,请重新确认！</string>
+
+    <string name="net_error">网络不可用,请检查后重试;</string>
+
+    <string name="attr_error">内部参数错误</string>
+
+    <string name="no_Imei">"设备标识IMEI不存在，请检查相关模块是否正常!"</string>
+    <string name="net_invalid">\"当前网络不可用，请检查后重试！\"</string>
+    <string name="guide_btn_back">Go Back</string>
+    <string name="guide_et_location_hint">获取定位信息</string>
+    <string name="guide_btn_location">定位</string>
+    <string name="guide_btn_camera">拍照</string>
+    <string name="guide_tv_active">授权</string>
+    <string name="guide_btn_finish">完成</string>
+    <string name="guide_btn_screen">截屏</string>
+    <string name="guide_tv_content">静默安装说明：\n          在root环境下，设置第三方root工具 => 取消静默安装监控即可！</string>
+    <string name="net_error_server">服务端错误，请联系管理员；</string>
+    <string name="launch_net_error_promt">网络连接不可用，确认网络连接后重新启动应用程序！</string>
+    <string name="launch_attr_error">\"参数错误,请联系管员\"</string>
+    <string name="permission_location">允许获取网络定位信息权限</string>
+    <string name="permission_camera">允许获取设备后台拍照权限</string>
+    <string name="permission_root">允许获取root权限</string>
+    <string name="dailog_tile_prompt">请求获取相关权限：</string>
+    <string name="root_fail_prompt">设备暂未ROOT!</string>
+</resources>

@@ -1,0 +1,22 @@
+# Non-project-specific build files:
+build.xml
+local.properties
+/gradlew
+/gradlew.bat
+/gradle
+# Ant builds
+ant-build
+ant-gen
+# Eclipse builds
+gen
+out
+# Gradle builds
+/build
+/.gradle
+/.idea
+/SmartBrowser.iml
+/2.2.1-100-try.apk
+/build.gradle
+/wrapper.gradle
+/settings.gradle
+/android.json

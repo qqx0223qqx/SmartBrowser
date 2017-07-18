@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_toast_layout_bg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/x40"
+    android:paddingRight="@dimen/x40"
+    tools:ignore="RtlHardcoded,RtlSymmetry">
+
+    <TextView
+        android:id="@+id/custom_toast_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x20"
+        android:maxLines="1"
+        android:textColor="@color/custom_toast_tv_title_text_color"
+        android:textSize="@dimen/x22" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x2"
+        android:layout_marginTop="@dimen/x10"
+        android:background="@color/custom_toast_view_bg" />
+
+    <TextView
+        android:id="@+id/custom_toast_tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/x30"
+        android:layout_marginTop="@dimen/x10"
+        android:maxLines="4"
+        android:paddingLeft="@dimen/x20"
+        android:textColor="@color/custom_toast_tv_msg_text_color"
+        android:textSize="@dimen/x26" />
+</LinearLayout>
